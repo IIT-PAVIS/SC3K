@@ -112,5 +112,6 @@ If you use this project for your research, please cite as:
 2. [CDHN: Cross-Domain Hallucination Network for 3D Keypoints Estimation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4349267)
    
 ## Acknowledgements:
-We would like to acknowledge [Seyed Saber Mohammadi](https://www.iit.it/it/people-details/-/people/seyed-mohammadi), [Milind Gajanan Padalkar](https://www.iit.it/it/people-details/-/people/milind-padalkar), [Matteo Taiana](https://www.iit.it/it/people-details/-/people/matteo-taiana) and [Pietro Morerio](https://www.iit.it/it/people/pietro-morerio) for fruitful discussions.
+We would like to acknowledge [Milind Gajanan Padalkar](https://www.iit.it/it/people-details/-/people/milind-padalkar), [Matteo Taiana](https://www.iit.it/it/people-details/-/people/matteo-taiana) and [Pietro Morerio](https://www.iit.it/it/people/pietro-morerio) for fruitful discussions, and [Seyed Saber Mohammadi](https://www.iit.it/it/people-details/-/people/seyed-mohammadi) and [Maryam Saleem]() or their support during the experimental phase. This work has been supported by the projects “RAISE-Robotics and AI for Socio-economic Empowerment” and “European Union-NextGenerationEU”.
+
 
