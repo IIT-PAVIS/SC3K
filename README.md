@@ -1,7 +1,7 @@
 # SC3K
-This repository contains the code of "[_**SC3K: Self-supervised and Coherent 3D Keypoints Estimation from Rotated, Noisy, and Decimated Point Cloud Data**_](https://arxiv.org/pdf/2308.05410.pdf)", which has been accepted in the ICCV23.
+This repository contains the code of "[_**SC3K: Self-supervised and Coherent 3D Keypoints Estimation from Rotated, Noisy, and Decimated Point Cloud Data**_](https://openaccess.thecvf.com/content/ICCV2023/papers/Zohaib_SC3K_Self-supervised_and_Coherent_3D_Keypoints_Estimation_from_Rotated_Noisy_ICCV_2023_paper.pdf)", which has been accepted in the ICCV23.
 
-**Authors:** [Mohammad Zohaib](https://www.iit.it/it/people-details/-/people/mohammad-zohaib), [Alessio Del Bue](https://www.iit.it/it/people-details/-/people/alessio-delbue)
+**Authors:** [Mohammad Zohaib](https://zohaibmohammad.github.io/), [Alessio Del Bue](https://www.iit.it/it/people-details/-/people/alessio-delbue)
 
 <!--- <img align="right" src="images/approach.gif" alt="approach" width="400"/>  
 <img src="images/over_view.gif" alt="over_view" width="600"/>      --> 
@@ -53,7 +53,7 @@ conda activate sc3k
   Please set the "best_model_path" as **train/class_name/Best_class_name_10kp.pth**, and inference as ```python test.py```. Follow the progress using **test/class_name/***
   
 # Datasets
-We use the KeypointNet dataset that can be downloaded from the [link](https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html). We use the following structure:
+We use the KeypointNet dataset that can be downloaded from the [link](https://github.com/qq456cvb/KeypointNet). We use the following structure:
 ```
 dataset/
   |_ annotation/airplane.json  (all.json that is available in the KeypointNet dataset can also be used)
@@ -96,13 +96,12 @@ To save the qualitative results (visualizations), you can run ```test.py```, kee
 ## Cite us:
 If you use this project for your research, please cite as:
 ```
-@InProceedings{zohaib_2021_ICCV,
-    author    = {Zohaib, Mohammad and Del Bue, Alessio},
-    title     = {SC3K: Self-supervised and Coherent 3D Keypoints Estimation from Rotated, Noisy, and Decimated Point Cloud Data},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2023},
-    pages     = {--}
+@inproceedings{zohaib2023sc3k,
+  title={SC3K: Self-supervised and Coherent 3D Keypoints Estimation from Rotated, Noisy, and Decimated Point Cloud Data},
+  author={Zohaib, Mohammad and Del Bue, Alessio},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={22509--22519},
+  year={2023}
 }
 
 ```
